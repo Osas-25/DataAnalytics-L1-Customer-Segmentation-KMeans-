@@ -4,15 +4,11 @@
 
 This project applies **Customer Segmentation** techniques to an e-commerce dataset using **RFM (Recency, Frequency, Monetary) Analysis** and the **K-Means Clustering** algorithm. The objective is to group customers based on their purchasing behaviour to help businesses implement targeted marketing strategies.
 
-This project was completed as part of the **Oasis Infobyte Data Analytics Internship (Level 1 – Task 2).**
-
----
+This project was completed as part of the **Oasis Infobyte Data Analytics Internship (Level 1 - Task 2).**
 
 ## Objective
 
 To segment customers into distinct groups based on purchasing behaviour using Machine Learning (K-Means Clustering) and provide actionable marketing recommendations for each customer segment.
-
----
 
 ## Dataset
 
@@ -32,8 +28,6 @@ Main columns include:
 - CustomerID
 - Country
 
----
-
 ## Technologies Used
 
 - Python
@@ -45,8 +39,6 @@ Main columns include:
 - Jupyter Notebook
 - VS Code
 - Git & GitHub
-
----
 
 ## Project Workflow
 
@@ -90,8 +82,6 @@ Calculated average:
 
 for each customer cluster.
 
----
-
 ## Customer Segments
 
 ### Cluster 0 – Regular Customers
@@ -104,8 +94,6 @@ for each customer cluster.
 - Product recommendations
 - Promotional offers
 
----
-
 ### Cluster 1 – Inactive Customers
 - Low spending
 - Low purchase frequency
@@ -115,8 +103,6 @@ for each customer cluster.
 - Re-engagement campaigns
 - Discount coupons
 - Personalized email marketing
-
----
 
 ### Cluster 2 – VIP Customers
 - Highest spending
@@ -129,8 +115,6 @@ for each customer cluster.
 - Early access to new products
 - Premium customer support
 
----
-
 ## Business Insights
 
 The K-Means model successfully identified three distinct customer groups with different purchasing behaviours. These insights can help businesses:
@@ -141,20 +125,14 @@ The K-Means model successfully identified three distinct customer groups with di
 - Reward high-value customers
 - Re-engage inactive customers
 
----
-
 ## Project Structure
 
-```
 Customer-Segmentation-KMeans/
-│
-├── Customer_Segmentation.ipynb
-├── OnlineRetail.csv
-├── README.md
-├── .gitignore
-```
 
----
+-Customer_Segmentation.ipynb
+-OnlineRetail.csv
+-README.md
+-.gitignore
 
 ## Author
 
